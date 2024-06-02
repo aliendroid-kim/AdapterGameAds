@@ -14,5 +14,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class AppsConfig {
-    public static String ALIENSDKKEY = "2a6665a4-e02a-42d4-84f5-5d3d8d4d3362";
+    public static String GAMEKEY ="T7PPns0K6JV00uGv0ZAEKsTWrpwA-N4Hchi_KKecaqTa_U5zQcyyoI_pTcC5TM1OgfrLz5dWGdASKWgK6l5Sks";
+    public static String ALIENSDKKEY = "bgxb4gvpki68";
+
 }
