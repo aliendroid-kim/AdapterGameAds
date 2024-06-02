@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         TelephonyManager tm = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
         String countryCodeValue = tm.getNetworkCountryIso();
         txtCode.setText("country = "+countryCodeValue);
-        AlienGame.LoadGame(MainActivity.this, "tes","tes","tes");
+        AlienGame.LoadGame(MainActivity.this, "tes","tes","tes", MainActivity.this.getString(R.string.sdk_key_applovin));
     }
 
     public void VIEWADS(View view){
