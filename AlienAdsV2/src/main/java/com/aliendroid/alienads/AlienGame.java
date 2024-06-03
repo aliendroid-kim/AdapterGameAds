@@ -27,9 +27,9 @@ public class AlienGame {
         webview = null;
     }
 
-    public static void LoadGame(Activity activity, String interstitialID, String rewardID,String bannerID, String sdkKey ){
+    public static void LoadGame(Activity activity, String interstitialID, String rewardID,String bannerID, String sdkKey){
         if (AppsConfig.GAMEKEY.equals(sdkKey)){
-            LoadGame(activity, interstitialID, rewardID, bannerID);
+            JamboxAdsHelper.InitializeAds(activity, interstitialID, rewardID, bannerID);
         } else {
             Toast.makeText(activity, "Please use the Applovin SDK Key from Jambox Games", Toast.LENGTH_SHORT).show();
 
