@@ -19,17 +19,17 @@ public class SettingsAlien {
     public static  String Select_Main_Ads ="ALIEN-V";
     public static  String Select_Backup_Ads ="ADMOB";
 
-    public static String  MainIntertitial ="Interstitial_Androids";
-    public static  String BackupIntertitial ="ca-app-pub-3940256099942544/1033173712";
+    public static String  MainIntertitial ="f2b482a711e8f7b0";
+    public static  String BackupIntertitial ="ca-app-pub-3940256099942544/1033173712x";
 
-    public static  String MainBanner="Banner_Androidx";
-    public static  String BackupBanner="ca-app-pub-3940256099942544/6300978111";
+    public static  String MainBanner="b8ab1456c1aec749";
+    public static  String BackupBanner="ca-app-pub-3940256099942544/6300978111x";
 
-    public static String MainNatives ="native_1";
+    public static String MainNatives ="521ada4a76459f87";
     public static String BackupNatives="ca-app-pub-3940256099942544/6300978111";
 
     public static String MainRewards ="Rewarded_Androids";
-    public static String BackupReward="ca-app-pub-3940256099942544/5224354917";
+    public static String BackupReward="ca-app-pub-3940256099942544/5224354917x";
 
     public static  String Main_Initialize="5099441";
     public static  String Backup_Initialize="88bcc479-fbfc-41f2-8ea4-b24d8cec6992";
