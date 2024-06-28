@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
-    id'maven-publish'
 }
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 34
@@ -92,7 +92,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.aliendroid-kim'
                 artifactId = 'AdapterGameAds'
-                version = 'Titan-10'
+                version = 'Titan-11'
             }
         }
     }
