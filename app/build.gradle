@@ -4,7 +4,7 @@ plugins {
 
 android {
     compileSdk 34
-
+    namespace 'com.kimganteng.myapplication'
     defaultConfig {
         applicationId "com.test.tes"
         minSdk 21
@@ -25,6 +25,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
 }
 
 dependencies {

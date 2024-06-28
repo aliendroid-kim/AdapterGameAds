@@ -12,7 +12,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
-
+    namespace 'com.aliendroid.alienads'
     buildTypes {
         release {
             minifyEnabled false
@@ -24,7 +24,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-
+    buildFeatures {
+        buildConfig true
+    }
 }
 
 dependencies {
@@ -90,7 +92,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.aliendroid-kim'
                 artifactId = 'AdapterGameAds'
-                version = 'Titan-09'
+                version = 'Titan-10'
             }
         }
     }
